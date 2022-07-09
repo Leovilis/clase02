@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylegitsheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <title>Mi Portfolio</title>
 </head>
@@ -14,13 +14,16 @@
       <a href="#" class="logo">Mi Portfolio</a>
       <ul class="menu">
         <li class="menu-item">
-          <a href="#home">home</a>
+          <a href="#home">Inicio</a>
         </li>
         <li class="menu-item">
           <a href="#about">Sobre mí</a>
         </li>
         <li class="menu-item">
           <a href="#projects">Experiencia</a>
+        </li>
+        <li class="menu-item">
+          <a href="#technologies">Tecnologías</a>
         </li>
         <li class="menu-item">
           <a href="#contact">Contacto</a>
@@ -32,13 +35,13 @@
   <section id="home" class="content">
     <div class="half-section">
      <div class="avatar-container">
-      <img src="./assets/avatar.png" alt="Avatar">
-      <h3>"Yo, disfrutando de mi mate..."</h3>
+      <img src="./assets/avatar.png" alt="">
+      <h3>"Yo, disfrutando de mi café..."</h3>
      </div>
     </div>
     <div class="half-section text-section">
       <div class="introduction">
-        <h1 class="title">Hola!, <br> Soy Leo </h1>
+        <h1 class="title">Hola!, <br> Soy Leo</h1>
         <ul class="socials">
           <li><a class="socials-icon" href=""><i class="bi bi-github"></i></a></li>
           <li><a class="socials-icon" href=""><i class="bi bi-linkedin"></i></a></li>
@@ -109,7 +112,57 @@
         </ul>
     </aside>
   </section>
+  <section id="technologies" class="content">
+    <aside class="half-section text-section">
+       <div class="tech-icons-container">
+          <ul class="tech-icon-list">
+            <li class="tech-icon-item">
+              <img height="120px" width="auto" src="./assets/tech-icons/icon-git.svg" alt="Git Icon">
+              <span>Git</span>
+            </li>
+            <li class="tech-icon-item">
+              <img height="120px" width="auto" src="./assets/tech-icons/icon-github.svg" alt="GitHub Icon">
+              <span>GitHub</span>
+            </li>
+            <li class="tech-icon-item-end">
+              <img height="120px" width="auto" src="./assets/tech-icons/icon-html.svg" alt="HTML Icon">
+              <span>HTML</span>
+            </li>
+          </ul>
+          <ul class="tech-icon-list">
+            <li class="tech-icon-item">
+              <img height="120px" width="auto" src="./assets/tech-icons/icon-css.svg" alt="CSS Icon">
+              <span>CSS</span>
+            </li>
+            <li class="tech-icon-item">
+              <img height="120px" width="auto" src="./assets/tech-icons/icon-js.svg" alt="JavaScript Icon">
+              <span>JavaScript</span>
+            </li>
+            <li class="tech-icon-item-end">
+              <img height="120px" width="auto" src="./assets/tech-icons/icon-react.svg" alt="ReactJS Icon">
+              <span>React</span>
+            </li>
+          </ul>
+          <ul class="tech-icon-list-end">
+            <li class="tech-icon-item">
+              <img height="120px" width="auto" src="./assets/tech-icons/icon-nodejs.svg" alt="NodeJS Icon">
+              <span>NodeJS</span>
+            </li>
+            <li class="tech-icon-item">
+              <img height="120px" width="auto" src="./assets/tech-icons/icon-postgresql.svg" alt="PostgreSQL Icon">
+              <span>PostgreSQL</span>
+            </li>
+          </ul>
+       </div>
+    </aside>
+    <aside class="half-section title-section">
+      <h2>Tecnologías que manejo</h2>
+    </aside>
+  </section>
   <section id="contact" class="content">
+    <aside class="half-section title-section">
+      <h2>Envíame un mensaje y charlemos!</h2>
+    </aside>
     <aside class="half-section text-section">
       <form action="">
         <label for="name">Nombre</label>
@@ -120,11 +173,7 @@
         <textarea class="input-field" name="message" id="message" cols="30" rows="10"></textarea>
         <input class="btn-send-message" type="submit" value="Enviar">
     </aside>
-    <aside class="half-section title-section">
-      <h2>Envíame un mensaje y charlemos!</h2>
-    </aside>
   </section>
-
   <footer>
     <div class="footer-section-container">
       <ul class="socials">
